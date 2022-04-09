@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator--grid">
+      <div class="calculator--output">
+        <div data-previous class="previous"></div>
+        <div data-current class="current"></div>
+      </div>
+
+      <div class="calculator--buttons">
+        <button data-operation-solo class="secondary">%</button>
+        <button data-clear-all class="secondary two-span">CA</button>
+        <button data-delete class="secondary">
+          <img src="./images/delete.svg" style="width: 20px" />
+        </button>
+        <button data-operation-solo class="primary">1/x</button>
+        <button data-operation-solo class="primary">x²</button>
+        <button data-operation-solo class="primary">√x</button>
+        <button data-operation class="secondary">÷</button>
+        <button data-number class="primary">7</button>
+        <button data-number class="primary">8</button>
+        <button data-number class="primary">9</button>
+        <button data-operation class="secondary">&#215;</button>
+        <button data-number class="primary">4</button>
+        <button data-number class="primary">5</button>
+        <button data-number class="primary">6</button>
+        <button data-operation class="secondary">-</button>
+        <button data-number class="primary">1</button>
+        <button data-number class="primary">2</button>
+        <button data-number class="primary">3</button>
+        <button data-operation class="secondary">+</button>
+        <button data-operation-solo class="primary">+/-</button>
+        <button data-number class="primary">0</button>
+        <button data-number class="primary">.</button>
+        <button data-number class="primary">&pi;</button>
+        <button data-equals class="four-span equal">=</button>
+      </div>
+    </div>
+  </body>
+</html>
